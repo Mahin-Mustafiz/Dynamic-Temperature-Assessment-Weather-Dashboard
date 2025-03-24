@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+.srcItem{
+width:10%;height:85%;
+margin-left:0.6%;
+cursor:pointer;
+font-family: helvetica;
+background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B  100%);
+color:white;
+background-size: 200% auto;
+border:none;
+}
+#frm .btn1{
+margin-left:1%; color:white; width:10%; height:85%; border:none; font-family:verdana;
+background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B  100%);
+background-size: 200% auto;
+transition: 0.5s;
+}
+#frm .btn1:hover{
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+cursor:pointer;
+}
